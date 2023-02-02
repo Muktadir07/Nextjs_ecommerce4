@@ -1,0 +1,1110 @@
+/* =============== COMMON CSS FOR WEB SITE =============== */
+.ThemeFour {
+    --header_color: #ffffff;
+    --bg_color: #93CA41;
+    --bg_color2: #FFF7E3;
+    --bg_color3: #F2371D;
+    --main_color: #FED700;
+    --text_color: #253D4E;
+    --white_color: #fff;
+    --icon_color:#28243B;
+    --primary_text: #93CA41;
+    --border_color: #dfdfdf;
+    --font2: 'open sans', sans-serif;
+  }
+
+
+
+.ThemeFour .container {
+    max-width: 100%;
+    padding: 0 250px;
+}
+
+.ThemeFour .btnBox a.bg{
+    background: var(--main_color);
+    border-radius: 40px;
+    text-align: center;
+    color: #fff;
+    display: block;
+    border: 2px solid var(--main_color);
+    padding: 7px 50px;
+    margin: 5px auto;
+    transition: 0.6s;
+}
+.ThemeFour .btnBox a.bgBorder{
+    background: #fff;
+    border-radius: 40px;
+    text-align: center;
+    color: var(--text_color);
+    display: block;
+    border: 2px solid var(--main_color);
+    padding: 7px 30px;
+    margin: 5px auto;
+    transition: 0.6s;
+}
+.ThemeFour .btnBox a:hover{
+    transform: scale(1.05);
+}
+
+.ThemeFour p{
+    margin-bottom: 0;
+}
+
+.Header {
+    padding: 15px 0;
+}
+.MobileHeader{
+    display: none;
+}
+
+.Header .Menubar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.HeaderLeftLogo .Logo img{
+    height: 40px;
+}
+
+.HeaderMiddle {
+    width: 560px;
+    position: relative;
+    border: 1px solid transparent;
+    border-radius: 30px;
+}
+
+.HeaderMiddle input {
+   
+    padding: 10px 20px;
+    outline: none;
+    background: none;
+    border: 1px solid var(--main_color);
+    border-radius: 30px;
+    width: 100%;
+}
+.HeaderMiddle input:focus {
+    border:1px solid #FED700;
+    outline: 2px solid #fee86a;
+
+}
+
+
+.HeaderMiddle .svg{
+    display: flex;
+    background: var(--main_color);
+    padding: 11px 15px;
+    border-radius: 0 30px 30px 0;
+    position: absolute;
+    top: 0;
+    right: -1px;
+}
+
+.HeaderMiddle .svg p{
+    font-weight: 500;
+    color: #fff;
+    margin: auto 5px;
+    font-size: 16px;
+}
+.HeaderMiddle .svg svg{
+    margin: auto 5px;
+    font-size: 24px;
+    color: #fff;
+    
+}
+.HeaderRight{
+    display: flex;
+    align-items: center;
+}
+.HeaderRight ul{
+    list-style: none;
+    text-align: right;
+    padding-left: 0px;
+    /* margin-bottom: 0; */
+    margin: auto 0;
+}
+
+.HeaderRight ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.HeaderRight a {
+    position: relative;
+    color: var(--text_color);
+    font-size: 14px;
+}
+
+.HeaderRight a svg {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.HeaderRight .svg{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.HeaderRight .svg span{
+    position: absolute;
+    top: -6px;
+    left: 17px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--main_color);
+    font-weight: 400;
+    font-family: var(--font2);
+    font-size: 14px;
+}
+
+/* ================Nav Bar=====================================
+================================================================ */
+
+.Navbar{
+
+}
+
+.NavContainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    margin-top: 20px;
+}
+
+.NavContainer .navLeft ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.NavContainer .navRight ul li a{
+    color: var(--text_color);
+    font-size: 24px;
+}
+
+.NavContainer .navRight ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* ================Nav Bar=====================================
+================================================================ */
+
+.CarouselSection{
+    
+    position: relative;
+}
+
+.ProductTab{
+    margin-top: 50px;
+    /* height: 500px; */
+}
+
+.ProductContainer{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.ProductCard{
+    padding: 10px 20px;
+    margin: 10px 12px;
+    border: 1px solid transparent;
+    width: 18%;
+    border-radius: 8px;
+    height: 400px;
+    position: relative;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    transition: 0.6s;
+}
+
+.ProductCard:hover{
+    border: 1px solid var(--main_color);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.ProductCard .ImgBox{
+    display: flex;
+    justify-content: center;
+}
+
+.ProductCard .ImgBox img{
+    width: 100%;
+    max-height: 186px;
+    object-fit: fill;
+    height: 400px;    
+}
+
+
+
+.ProductContainer .titleBox{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.ProductContainer .titleBox .Title {
+    display: flex;
+    align-items: center;
+}
+
+.ProductContainer .titleBox .Title h6{
+    width: 100%;
+    height: 2.4em;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* start showing ellipsis when 3rd line is reached */
+    white-space: pre-wrap; /* let the text wrap preserving spaces */
+    
+}
+
+.ProductContainer .titleBox .Wishlist{
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.ProductContainer .titleBox .PriceBox{
+    margin-top: 20px;
+}
+
+.ProductContainer .PriceBox h5{
+    text-transform: uppercase;
+}
+
+.ProductCard .btnBox{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    padding: 0 10px;
+}
+
+
+
+
+
+
+.verticalLine2{
+    width: 2px;
+    height: 100%;
+    background: #D8D8D8;
+    margin: 0 5px;
+}
+
+.AllProduct{
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Banners{
+    margin: 40px 0;
+}
+
+.Banners .Images1 img{
+    width: 100%;
+    margin: 10px 0;
+}
+
+.Banners .Images img{
+    width: 95%;
+    margin: 10px 0;
+}
+/* 
+============= service Section=================================
+=============================================================== */
+
+.serviceSection {
+    margin-top: 40px;
+    background-color: #FED700;
+    padding: 30px 0;
+}
+
+.serviceSection h5, .serviceSection p{
+    color: var(--text_color);
+}
+.serviceSection .serviceItem{
+    display: flex;
+    position: relative;
+    align-items: center;
+    
+}
+.serviceSection .serviceItem::before {
+    content: "";
+    width: 1px;
+    background: #A0846FFC;
+    height: 50%;
+    justify-content: flex-end;
+    align-items: center;
+    margin: auto;
+    position: absolute;
+    right: 20px;
+}
+.serviceSection .serviceItem:last-child::before{
+    width: 0;
+}
+
+.serviceItem .text{
+    margin-left: 20px;
+    margin-top: 5px;
+    color: #503A2A;
+}
+
+.serviceItem .text h5{
+    text-transform: capitalize;
+}
+.serviceItem .text p{
+    font-size: 14px;
+}
+
+.serviceItem svg{
+    
+}
+
+
+
+
+/* 
+============= Shop Section=================================
+=============================================================== */
+
+.ShopProducts .ProductCard{
+    width: 22%;
+    margin: 10px 15px;
+}
+
+.ShopProducts .Box{
+    border-left: 2px solid #D8D8D8;
+    padding-left: 15px;
+}
+.ShopProducts .ProductContainer .verticalLine:nth-child(5n){ 
+    display: block;
+ }
+
+ .ShopProducts .ProductContainer .verticalLine:nth-child(8n){ 
+    display: none;
+ }
+ 
+
+.FilterContainer{
+    margin-top: 40px;
+}
+
+.FilterContainer .Title{
+    background: var(--main_color);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.FilterContainer .Title h4{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.FilterContainer .FilterText p{
+    text-align: left;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+/* ============= Footer Section=================================
+=============================================================== */
+
+.Footer{
+    margin: 30px 0;
+}
+
+.Footer ul.menu li{
+    display: block;
+    margin: 20px 0;  
+}
+
+.Footer ul.menu li a{
+    color: #5F646B;
+    font-size: 14px;
+}
+
+.Footer ul.menu li:hover a{
+    color: var(--main_color);
+    
+}
+
+.Footer ul.menu2 li{
+    display: block;
+    margin: 20px 0; 
+}
+.Footer ul.menu2 li a{
+   
+    font-size: 14px;
+}
+
+
+
+.Footer .footermenu svg{
+    margin-right: 15px;
+}
+
+.Footer .footertext{
+   
+    font-weight: 400;
+}
+
+.Footer ul.social{
+    margin-top: 15px;
+}
+
+.Footer ul.social li{
+    display: inline-block;
+}
+
+.Footer ul.social li a{
+    font-size: 24px;
+}
+
+.Footer h5{
+    font-size: 20px;
+}
+
+.Footer h4{
+    margin-top: 10px;
+    color: #BABABA;
+    font-size: 20px;
+}
+@media (max-width: 1200px) {
+    .HeaderLeftLogo img{
+        width: 90%;
+    }
+
+    .HeaderLeftLogo .Logo img {
+        margin: 20px 0;
+        margin-right: auto;
+    }
+
+    .HeaderMiddle{
+        width: 400px;
+        margin: 20px auto;
+    }
+    .HeaderMiddle .svg p{
+        display: none;
+    }
+
+    .HeaderMiddle input {
+        padding: 7px 20px;
+        width: 100%;
+    }
+
+    .HeaderMiddle .svg {
+       
+        padding: 8px 13px;
+        
+    }
+
+    .HeaderRight ul li {
+        margin-left: 5px;
+    }
+
+    .HeaderRight a svg {
+        font-size: 24px;
+        margin-right: 5px;
+    }
+
+    .HeaderRight .svg span {
+        
+        width: 15px;
+        height: 15px;
+        font-size: 10px;
+    }
+
+    .HeaderRight a {
+        font-size: 12px;
+    }
+
+    .ProductCard {
+        margin: 10px 9px;
+        width: 18%;
+        border: 10px;
+        height: 325px;
+    }
+
+    .ProductCard .ImgBox img {
+        
+        height: 330px;
+    }
+
+    .ProductCard .ImgBox img {
+        max-height: 110px;
+        object-fit: fill;
+        
+    }
+
+    .ProductContainer .PriceBox h5{
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+
+    .ProductContainer .PriceBox h5 span{
+        font-size: 10px;
+    }
+
+    .ProductContainer .titleBox .Wishlist{
+        font-size: 22px;
+        
+    }
+
+    .ProductCard .Title h6{
+        font-size: 14px;
+    }
+
+    .ThemeFour .btnBox a.bgBorder {
+        padding: 7px 10px;
+    }
+
+    .ThemeFour .btnBox a.bg {
+        padding: 7px 10px;
+    }
+
+    .serviceItem .text h4 {
+        font-size: 16px;
+    }
+
+    .serviceItem .text p {
+        font-size: 12px;
+    }
+
+
+    .FilterContainer .Title {
+        padding: 10px 0;
+    }
+
+    .FilterContainer .Title h4{
+        font-size: 14px;
+    }
+
+    .FilterContainer .FilterContainer h4{
+        font-size: 12px;
+    }
+
+    .FilterContainer .dropDownBox h5{
+        font-size: 14px;
+    }
+
+    .ShopProducts .ProductCard {
+        width: 23%;
+        margin: 10px 6px;
+    }
+
+    .Footer h5 {
+        font-size: 14px;
+    }
+
+    .Footer ul.menu li a {
+        font-size: 11px;
+    }
+    .Footer ul.menu li{
+        margin: 5px 0;
+    }
+
+    
+    .Footer ul.menu2 li a {
+        font-size: 11px;
+    }
+
+    .Footer ul.menu2 li{
+        margin: 5px 0;
+    }
+
+    .Footer ul.social li a {
+        font-size: 18px;
+    }
+    
+    .Footer h4 {
+        font-size: 16px;
+    }
+    
+
+}
+
+/* ..................Tablet Media..................
+................................................ */
+
+@media screen and (max-width: 768px){
+    .MobileHeader{
+        display: block;
+    }
+
+    .Header, .Navbar{
+        display: none;
+    }
+
+    .HeaderRight {
+        margin-top: 10px;
+        justify-content: flex-end;
+    }
+
+    .HeaderRight ul li {
+        display: inline-block;
+        margin-left: 0px;
+    }
+
+    .HeaderRight a svg {
+        font-size: 25px;
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+
+    .HeaderRight .svg span {
+        
+        width: 13px;
+        height: 13px;
+        left: 26px;
+        font-size: 10px;
+    }
+
+    .HeaderMiddle{
+        width: 350px;
+        margin-bottom: 20px;
+    }
+
+    .HeaderMiddle input{
+        border-radius: 5px;
+    }
+
+    .HeaderMiddle .svg {
+        padding: 11px 8px;
+        border-radius: 0 5px 5px 0;
+        
+    }
+
+    .HeaderMiddle .svg {
+        padding: 8px;
+    }
+
+    .Logo{
+        margin: 10px 0;
+        margin-bottom: 20px;
+    }
+
+    .IconMenu a svg {
+        font-size: 30px;
+        
+        margin-bottom: 10px;
+        color: var(--text_color);
+    }
+    .IconMenu{
+        display: flex;
+        align-items: center;
+    }
+
+    .navIcons{
+        margin-top: 20px;
+    }
+
+    .navIcons ul li{
+        display: inline-block;
+        
+    }
+
+    .navIcons ul li a{
+        font-size:18px;
+        border-radius: 10px;
+    }
+
+    
+
+
+
+
+    .ProductCard{
+       margin: 10px 6px;
+        width: 23%;
+        height: 320px;
+       
+    }
+    .ThemeFour .btnBox a.bg{
+        font-size: 14px;
+        padding: 7px 10px;
+        
+    }
+
+    .ThemeFour .btnBox a.bgBorder{
+        font-size: 14px;
+        padding: 7px 10px;
+        
+    }
+
+    .ProductContainer{
+        margin-top: 20px;
+        justify-content: start;
+    }
+
+    .ProductCard .ImgBox img{
+        width: 70%;
+        height: 90px;
+    }
+    .ProductCard .Title h6{
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .ProductContainer .PriceBox h5{
+        text-transform: uppercase;
+        font-size: 13px;
+    }
+
+    .ProductContainer .PriceBox h5 span{
+        font-size: 10px;
+    }
+    .ProductContainer .titleBox .Wishlist{
+        font-size: 22px;
+        
+    }
+
+    
+
+   
+    
+
+     .AllProduct {
+        margin-top: 20px;
+       
+    }
+
+    .Banners .Images1 img{
+        width: 100%;
+        margin:0;
+        margin-top: 5px;
+    }
+    
+    .Banners .Images img{
+        width: 95%;
+        margin: 5px 0;
+    }
+
+    .serviceSection {
+        margin-top: 20px;
+        background-color: #FED700;
+        padding: 30px;
+    }
+    .serviceItem .text h4{
+        font-size: 18px;
+        text-transform: capitalize;
+    }
+    .serviceItem .text p{
+        font-size: 12px;
+        
+    }
+    .serviceSection .serviceItem{
+        margin-top: 10px;
+    }
+
+    .serviceSection .serviceItem::before {
+        content: "";
+        width: 50%;
+        background: #A0846FFC;
+        height: 1px;
+        justify-content: flex-end;
+        align-items:flex-end;
+        margin: auto;
+        position: absolute;
+        right: inherit;
+        left: 20px;
+        bottom:-5px;
+    }
+    .serviceSection .serviceItem:last-child::before{
+        width: 50%;
+    }
+
+    .Footer .icon img{
+        margin: 20px 0;
+        width: 100%;
+        
+    }
+
+    .Footer h5 {
+        font-size: 14px;
+    }
+
+    .Footer ul.menu li a {
+        font-size: 11px;
+    }
+    .Footer ul.menu li{
+        margin: 5px 0;
+    }
+
+    
+    .Footer ul.menu2 li a {
+        font-size: 11px;
+    }
+
+    .Footer ul.menu2 li{
+        margin: 5px 0;
+    }
+    .Footer ul.social li a {
+        font-size: 20px;
+    }
+
+    .Footer .footermenu svg {
+        margin-right: 5px;
+    }
+
+    
+
+    .Footer h4 {
+        font-size: 16px;
+    }
+}
+
+
+
+/* .......................Mobile screen.................................................
+....................................................................... */
+
+@media screen and (max-width: 575px){
+
+    .MobileHeader{
+        display: block;
+    }
+
+    .Header, .Navbar{
+        display: none;
+    }
+
+    .HeaderRight {
+        margin-top: 10px;
+        justify-content: flex-end;
+    }
+
+    .HeaderRight ul li {
+        display: inline-block;
+        margin-left: 0px;
+    }
+
+    .HeaderRight a svg {
+        font-size: 25px;
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+
+    .HeaderRight .svg span {
+        
+        width: 13px;
+        height: 13px;
+        left: 26px;
+        font-size: 10px;
+    }
+
+    .HeaderMiddle{
+        width: 350px;
+        margin-bottom: 20px;
+    }
+
+    .HeaderMiddle input{
+        border-radius: 5px;
+    }
+
+    .HeaderMiddle .svg {
+        padding: 8px;
+        border-radius: 0 5px 5px 0;
+        
+    }
+
+    .Logo{
+        margin: 10px 0;
+        margin-bottom: 20px;
+    }
+
+    .IconMenu a svg {
+        font-size: 30px;
+        
+        margin-bottom: 10px;
+        color: var(--text_color);
+    }
+    .IconMenu{
+        display: flex;
+        align-items: center;
+    }
+
+    .navIcons{
+        margin-top: 20px;
+    }
+
+    .navIcons ul li{
+        display: inline-block;
+        
+    }
+
+    .navIcons ul li a{
+        font-size:18px;
+        border-radius: 10px;
+    }
+
+
+
+
+    .ProductCard{
+       margin: 10px 7px;
+        width: 46%;
+        height: 300px;
+       
+    }
+    .ThemeFour .btnBox a.bg{
+        font-size: 14px;
+        padding: 7px 10px;
+        
+    }
+
+    .ThemeFour .btnBox a.bgBorder{
+        font-size: 14px;
+        padding: 7px 10px;
+        
+    }
+
+    .ProductContainer{
+        margin-top: 20px;
+        justify-content: start;
+    }
+
+    .ProductCard .ImgBox img{
+        width: 70%;
+        height: 100px;
+    }
+    .ProductCard .Title h6{
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .ProductContainer .PriceBox h5{
+        text-transform: uppercase;
+        font-size: 13px;
+    }
+
+    .ProductContainer .PriceBox h5 span{
+        font-size: 10px;
+    }
+    .ProductContainer .titleBox .Wishlist{
+        font-size: 22px;
+        
+    }
+
+    .ProductContainer .verticalLine{
+        margin: 15px 5px;
+    }
+    
+    .ProductContainer .verticalLine:nth-child(5n){
+        display: block !important;
+    }
+    
+
+     .AllProduct {
+        margin-top: 20px;
+       
+    }
+
+    .Banners .Images1 img{
+        width: 100%;
+        margin:0;
+        margin-top: 5px;
+    }
+    
+    .Banners .Images img{
+        width: 92%;
+        margin: 5px 0;
+    }
+
+    .serviceSection {
+        margin-top: 20px;
+        background-color: #FED700;
+        padding: 20px 30px;
+    }
+    .serviceItem .text h4{
+        font-size: 18px;
+        text-transform: capitalize;
+    }
+    .serviceItem .text p{
+        font-size: 12px;
+        
+    }
+    .serviceSection .serviceItem{
+        margin-top: 20px;
+    }
+
+    .serviceSection .serviceItem::before {
+        content: "";
+        width: 50%;
+        background: #A0846FFC;
+        height: 1px;
+        justify-content: flex-end;
+        align-items:flex-end;
+        margin: auto;
+        position: absolute;
+        right: inherit;
+        left: 20px;
+        bottom:0px;
+    }
+    .serviceSection .serviceItem:last-child::before{
+        width: 50%;
+    }
+
+
+    .ShopProducts .ProductCard{
+        width: 46%;
+    }
+    .ShopProducts .Box{
+        border-left: none;
+        padding-left: 0px;
+    }
+    .ShopProducts .verticalLine:nth-child(4n){ 
+        display: block !important;
+     }
+     
+
+
+    
+    .serviceItem .text{
+        margin: 15px;
+        color: #503A2A;
+    }
+
+    .Footer .icon img{
+        margin: 20px 0;
+        width: 60%;
+    }
+
+    .Footer .footermenu{
+        margin: 20px 0;
+    }
+
+    .Footer .footermenu ul{
+        margin-top: 20px;
+    }
+
+    .Footer .footermenu ul li{
+        margin: 10px 0;
+    }
+
+    .Footer h4 {
+
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+    .ProductCard{
+        margin: 10px 0;
+         width: 45%;
+         height: 300px;
+        
+     }
+
+}
+

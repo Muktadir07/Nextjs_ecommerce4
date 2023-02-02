@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+body{
+    font-family: 'Poppins', sans-serif !important;
+    --main_color: #FED700;
+    --text_color: #253D4E;
+}
+
+.d_flex {
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    font-size: 16px;
+}
+h6{
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+h5{
+    font-size: 16px;
+    line-height: 24px;
+}
+h5 span{
+    font-size: 14px;
+    color: #ABABAB;
+    text-decoration: line-through;
+}
+
+ul{
+    margin-bottom: 0;
+    padding-left: 0;
+}
+ul li{
+    /* display: inline-block; */
+    margin-right:10px;
+}
+
+ul li a{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #28243B;
+    text-transform: uppercase;
+}
+a:hover{
+    color: var(--main_color);
+}
+.carousel-indicators{
+    border-radius: 50%;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #000;
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+    opacity: .3;
+    margin: 0 10px;
+}
+
+.carousel-indicators .active{
+    opacity: 1;
+}
+
+.ProductsItem .nav-justified .nav-item .nav-link {
+    width: auto;
+}
+
+.ProductsItem .nav-tabs .nav-link.active{
+    background: var(--main_color);
+}
+.ProductsItem .nav-tabs .nav-link:hover{
+    border-color: var(--main_color);
+}
+
+.ProductsItem .nav-tabs .nav-link {
+    border-radius: 30px;
+    border: 2px solid var(--main_color);
+    font-size: 18px;
+    color: #000;
+    padding: 5px 30px;
+    margin: 10px 0px;
+    margin-right: 20px;
+}
+
+.ProductsItem .nav-tabs{
+    border-bottom: none;
+}
+
+
+.btnCustom .dropdown-toggle{
+    background: white;
+    border-color: var(--main_color);
+    color: #253D4E;
+    width: 100%;
+}
+.btnCustom .dropdown-menu.show {
+    width: 100%;
+    
+}
+
+.dropdown-menu.show {
+    position: unset !important;
+    transform: unset !important;
+}
+
+@media (max-width: 1200px) {
+    .btnCustom .dropdown-toggle{
+       
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:575px){
+    .ProductsItem .nav-tabs .nav-link {
+        
+        font-size: 14px;
+        color: #000;
+        padding: 5px 12px;
+        margin: 10px 0px;
+        margin-right: 0px;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        width: 7px;
+        height: 7px;
+        margin: 0 4px;
+    }
+
+    .carousel-indicators {
+        margin-bottom: 5px;
+        
+    }
+
+    .offcanvas-body nav {
+        position: relative;
+        width: 360px;
+    }
+    .offcanvas-body nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .offcanvas-body nav ul li.active a{
+        color: var(--primary-color);
+    }
+    .offcanvas-body nav ul li a {
+        display: block;
+        padding: 10px 15px;
+        color: var(--text_color);
+        text-decoration: none;
+        -webkit-transition: 0.2s linear;
+        -moz-transition: 0.2s linear;
+        -ms-transition: 0.2s linear;
+        -o-transition: 0.2s linear;
+        transition: 0.2s linear;
+    }
+    .offcanvas-body nav ul li a:hover {
+        background: var(--main_color);
+        color: var(--text_color);
+    }
+    .offcanvas-body nav ul li a .fa {
+        width: 16px;
+        text-align: center;
+        margin-right: 5px;
+        float:right;
+    }
+    .offcanvas-body nav ul ul {
+        background-color:#ebebeb;
+    }
+    .offcanvas-body nav ul li ul li a {
+        background: #f3e17f;
+        border-left: 4px solid transparent;
+        padding: 10px 20px;
+    }
+    .offcanvas-body nav ul li ul li a:hover {
+        background: var(--main_color);
+        border-left: 4px solid var(--primary-color);
+    }
+} 
+
+@media (max-width: 768px) {
+    .ProductsItem .nav-tabs .nav-link {
+    
+        font-size: 14px;
+        padding: 5px 25px;
+        margin-right: 10px;
+    }
+
+    .offcanvas-body nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .offcanvas-body nav ul li.active a{
+        color: var(--primary-color);
+    }
+    .offcanvas-body nav ul li a {
+        display: block;
+        padding: 10px 15px;
+        color: var(--text_color);
+        text-decoration: none;
+        transition: 0.2s linear;
+    }
+    .offcanvas-body nav ul li a:hover {
+        background: var(--main_color);
+        color: var(--text_color);
+    }
+    .offcanvas-body nav ul li a .fa {
+        width: 16px;
+        text-align: center;
+        margin-right: 5px;
+        float:right;
+    }
+
+    ul li a {
+        font-size: 14px;
+        
+    }
+
+    .NavContainer .navRight ul li a {
+        font-size: 22px;
+    }
+}
+
