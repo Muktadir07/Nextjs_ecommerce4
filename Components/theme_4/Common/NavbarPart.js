@@ -21,8 +21,8 @@ const Navbar = () => {
 
                             <div className={styles.navLeft}>
                                 <ul>
-                                    <li><Link href='/'>Home</Link> </li>
-                                    <li><Link href='/shoppage'>Shop</Link> </li>
+                                    <li><Link href='/theme_4'>Home</Link> </li>
+                                    <li><Link href='/theme_4/shoppage'>Shop</Link> </li>
                                     <li><Link href='#'>About us</Link> </li>
                                     <li><Link href='#'>Contact us</Link> </li>
                                 </ul>

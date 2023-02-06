@@ -431,6 +431,7 @@
 .Footer ul.menu li a{
     color: #5F646B;
     font-size: 14px;
+    transition: 0.6s;
 }
 
 .Footer ul.menu li:hover a{

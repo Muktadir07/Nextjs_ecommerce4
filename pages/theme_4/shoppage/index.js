@@ -1,7 +1,7 @@
-import Header from '../../Components/theme_4/Common/Header'
+import Header from '../../../Components/theme_4/Common/Header'
 import React from 'react'
-import Navbar from '../../Components/theme_4/Common/NavbarPart'
-import Footer from '../../Components/theme_4/Common/Footer'
+import Navbar from '../../../Components/theme_4/Common/NavbarPart'
+import Footer from '../../../Components/theme_4/Common/Footer'
 import Head from 'next/head'
 import ShopPage from '@/Components/theme_4/ShopPage/ShopPage'
 
